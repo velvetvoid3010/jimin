@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Jimin Bhaiya - Sweet Rakshabandhan Wish</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@400;600&display=swap');
+
+  :root {
+    --soft-pink: #f9d5d3;
+    --warm-cream: #fff6f5;
+    --lavender: #bca4d4;
+    --text-dark: #5a3e36;
+    --glow-pink: #f4a1a1;
+  }
+
+  body, html {
+    margin: 0; padding: 0;
+    height: 100%;
+    background: var(--warm-cream);
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    overflow: hidden;
+  }
+
+  .container {
+    max-width: 650px;
+    background: var(--soft-pink);
+    border-radius: 25px;
+    box-shadow: 0 0 25px rgba(188, 164, 212, 0.5);
+    padding: 3rem 3.5rem;
+    text-align: center;
+    position: relative;
+  }
+
+  .avatar {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 20px var(--lavender);
+    border: 4px solid var(--lavender);
+    animation: pulseGlow 3s ease-in-out infinite;
+  }
+  .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  @keyframes pulseGlow {
+    0%, 100% {
+      box-shadow: 0 0 18px var(--glow-pink);
+    }
+    50% {
+      box-shadow: 0 0 40px var(--glow-pink);
+    }
+  }
+
+  h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    color: var(--lavender);
+    letter-spacing: 0.06em;
+    animation: fadeInUp 1.6s ease forwards;
+    opacity: 0;
+  }
+
+  p {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    color: var(--text-dark);
+    max-width: 520px;
+    margin: 0 auto;
+    animation: fadeInUp 1.6s ease forwards;
+    animation-delay: 0.4s;
+    opacity: 0;
+  }
+
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="container" role="region" aria-label="Jimin Bhaiya Rakshabandhan Wish">
+    <div class="avatar" aria-label="Jimin smiling photo">
+      <img src="images/jimin.jpg" alt="Jimin smiling softly" />
+    </div>
+    <h1>Happy Rakshabandhan, Jimin bhaiya 💜</h1>
+    <p>Your soft heart and caring nature always make me feel protected. Thank you for being the sweetest brother figure ever.</p>
+  </div>
+</body>
+</html>
